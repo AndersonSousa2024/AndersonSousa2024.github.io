@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Formulário-Pets</title>
+    <meta charset="UTF-8">
+    <meta name="autor" content="Anderson Sousa">
+    <meta name="assunto" content="Formulári de Pesquisa Sobre Pets">
+    <ink rel="icon" href="/87502 faviconimagem.png">
+   <nav aria-label="navegação primária">
+   <link rel="stylesheet" href="estilos.css" type="text/css">
+   </head>
+   <hr>
+   <body>
+    <header>
+   <H1>Formulário-Pets</H1>
+   <ul id="lista">
+    <li>
+      <a href="/index.html">home</a>
+      </li>
+      <li>
+        <a href="/#Fatos Curiosos">Fatos Curiosos Sobre os Animais</a>
+        </li>
+   </ul>
+  </nav>
+  <hr>
+</header>
+    <main>
+      <article id="formulário">
+        <h2>Formulário-Pets</h2>
+        <p>Responda essa pesquisa e nos ajude a entender melhor sobre esses bichinhos lindos.</p>
+        <p>PS:Se você quiser,pode enexar uma foto do seu animal de estimação para fazer parte da nossa galeria.</p>
+        <form action="mailto:andersonsousadefarias0@gmail.com.br" method="post">
+            <legend>Infoemações sobre o seu pet </legend>
+          <label for="nomePet">Qual o nome do seu Pet?</label>
+          <input type="text" name="nomePet"
+          id="nomePet" placeholder="Garfield"
+          autocomplete="on" required autofocus>
+          <p>
+          <label for="idadePet">Quantos Animais de Estimação você Tem?</label>
+          <input type="number"
+          name="idadePet" id="idadePet"
+          min="1" max="30" step="1"
+          value="1" required>
+          <p>
+            <p>
+              Seu pet(s) Fica dentro de casa ou tem acesso à rua?</p>
+              <input type="radio"
+              name="casaRua" id="casa"
+              value="casa">
+              <label for="casa">Fica em casa</label>
+              </p>
+              <input type="radio"
+              name="casaRua" id="rua"
+              value="rua">
+              <label for="rua">Sai para a rua</label>
+              <p>
+                <p>Qual dessas personalidades se encaicha melhor com a do seu pet?</p>
+                <p>
+                 <input type="checkbox"
+              name="personalidade" id="manhoso">
+              <label for="manhoso">Manhoso</label></p>
+              <p>
+                 <input type="checkbox"
+              name="personalidade" id="atrapalhado">
+              <label for="atrapalhado">Atrapalhado</label></p>
+              <p>
+                 <input type="checkbox"
+              name="personalidade" id="medroso">
+              <label for="medroso">Medroso</label></p>
+              <p>
+                 <input type="checkbox"
+              name="personalidade" id="estressado">
+              <label for="estressado">Estressado</label></p>
+              <p>
+                 <input type="checkbox"
+              name="personalidade" id="desconfiado">
+              <label for="desconfiado">Desconfiado</label></p>
+            </p>
+            </p>
+          </p>
+          </fieldset>
+          <lrgend>Seu Pet na Nossa Galeria</lrgend>
+          <p>Anexe Uma Foto Para Adicionarmos Na Nossa Galeria</p>
+          <input type="file" name="anexoFoto" id="anexoFoto">
+            <p>
+              <label for="mensagem">Legenda da Foto</label>
+             </p>
+             <textarea name="mensagem" id="mensagem" cols="50" rows="10" placeholder="insira a legenda da sua foto aqui"></textarea>
+         </fieldset>
+         <br>
+         <button type="submit">Enviar</button>
+         <button type="reset">Redefinir</button>
+         </form>
+      </article>
+    <hr>
+    <p>
+     <a href="Formulário-pets.html">Voltar ao topo</a>
+    </p>
+    </main>
+    <footer>
+      <p>
+        &lt; &copy;Copyright App Fotografias do seu Pet &gt;
+      </p>
+    </footer>
+</body>
+</html>

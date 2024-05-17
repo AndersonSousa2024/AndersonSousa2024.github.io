@@ -1,0 +1,49 @@
+
+
+h1{text-align:center;
+    color:blue;
+    }
+nav{
+    text-align:center;
+}
+nav a{ color:rgb(19, 12, 33) ;
+text-decoration: none;
+}
+nav a:hover{
+    background-color:rgb(3, 3, 24);
+    color:aliceblue;
+    padding: 15px;
+    border-radius :10px;
+
+}
+    #lista{list-style:none;}
+
+#lista li{
+    margin:20px;
+}
+a{
+    color:rgb(19, 12, 33) ;
+}
+a:hover{
+    color:aliceblue;
+    background-color:rgb(19, 12, 33) ;
+}
+#linkfoto:hover{
+    background-color: aliceblue;
+}
+img{
+    max-width: 280px;
+    height:auto;
+}
+#galeria{
+    display:flex;
+    width:50%;
+    margin:0 auto;
+    justify-content:center;
+}
+@media( max-width:650px){
+    #galeria{
+      flex-direction:column;
+     align-items:center;
+        }
+    }
